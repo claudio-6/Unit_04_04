@@ -1,0 +1,44 @@
+﻿@charset "utf-8"
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: claudio
+   Date:   9/16/19
+   
+   Filename: lake_styles.css
+
+*/
+
+html{
+   background-color: black;
+}
+body{
+   background-color:beige;
+}
+header{
+   background-color:gold;
+}
+h1, h2{
+   font-family:'Segoe UI', cursive, Geneva, Verdana, sans-serif;
+   font-size: 3em;
+   margin-left: 1%;
+   margin-right: 1%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+#rightcol{
+   background-color: tan;
+}
+aside{
+   background-color: bisque;
+}
+footer{
+   font-size: 1.3em;
+   background-color:gray;
+}
+nav a:hover, nav a:active{
+   color:rgb(97,97,211)
+}
